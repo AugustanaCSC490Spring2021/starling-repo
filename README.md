@@ -1,19 +1,20 @@
-# Productivity
+# Productivity Dashboard
 
-The main focus of our app will be college students, who struggle with deadlines and postpone completing work.
+To help out college students stay organized in managing their tasks, and keeping track of their expenses, our productivity dashboard does this all in one place - by incorporating a calendar to a to-do list, managing finances, and generating reports based on user's progress.
+
 ## Function
-There will be many kinds of todolist - no deadline (reading book list or grocery list) or deadline (homework list) - the type will be chosen by users
+- In the dashboard, the user is able to see the weather and time at the current location
+- it displays two columns: one for the upcoming tasks or events due today and the other column to display user's total income and expenses.
+- Notes page shows more details of user's upcoming tasks, where the user can select a date from the calendar and add a task, with a tag which the users can filter according to tag and the status of the task can also be filtered when users toggle tasks (all tasks, in progress, completed). Users can edit and delete the task.
+- The Expenses page shows a column with user's current earnings and spending, and computes the total, and allows users to add new expenses/income and displays a table of user's data which consists of the name and  amount of the expenses and/or spending. Users can filter the table by Dates (3 recent days / Week / Today) and Type (Earning / Expenses)
+- Reports Page performs the data visualisation of user's expenses and tasks using charts, 
+  where in the expenses tab it displays the balance, frequency of spending and income and makes a pie chart based Earnings vs Spending and filter the charts based on dates such as in 3 most recent days, or a week.
+- In the todos tab of the Report Page, it displays charts based on tasks by categories, and completion of tasks, and users can filter the charts based on dates being 3 most recent days, or one week's charts.
 
-In the dashboard, it will display two columns: one for the upcoming event need to do and one for the no deadline (for example, book needs to read)
+## Demo
+![Productivity Dash Demo](Group-App-Demo.gif)
 
-User can select a date from the calendar
-
-Then the UI will show a panel for notes on that specific date
-
-
-Todo items will have tags & the user can filter todos based on tags
-
-## Technology
+## Technologies Used:
 Front-end: React.js
 Back-end: Nodejs
 Databases: Firebase
