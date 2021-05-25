@@ -15,11 +15,11 @@ To help out college students stay organized in managing their tasks, and keeping
 ![Productivity Dash Demo](Group-App-Demo.gif)
 
 ## Technologies Used:
-Front-end: React.js, Redux/React Hooks
-Back-end: Nodejs
-Databases: Firebase Firestore
-UI framework: MaterialUI, Bootstrap
-APIs: Weather API, Calendar API
+- Front-end: React.js, Redux/React Hooks
+- Back-end: Nodejs
+- Databases: Firebase Firestore
+- UI framework: MaterialUI, Bootstrap
+- APIs: Weather API, Calendar API
 
 MIT License
 
